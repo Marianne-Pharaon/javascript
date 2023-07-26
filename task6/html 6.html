@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css6.css" />
+    <script>
+        function buttonClicked(value) {
+            selectedButton = value;
+        }
+        function submitClicked() {
+            updateOutput();
+        }
+        function updateOutput() {
+            alert("the number choice is:" + selectedButton);
+        }
+
+    </script>
+</head>
+
+<body class="body">
+    <div class="div">
+        <div class="div1"></div>
+
+        <img src="file:///C:/Users/CompuTop/Desktop/AUF/javascript/task6/icon-star.svg" class="mypic" />
+        <h1></B>How did we do?</B></h1>
+        <pre><P class="text">      Please let us know how we did with your support request.    
+       All feedback is apreciated to help us improve our offering!      
+        </P></pre>
+
+        <form>
+            <div class="container">
+                <table cellpadding="10" cellspacing="10" border="0" class="table1">
+                    <tr>
+                        <td><input type="button" onclick="buttonClicked(1)" value="1" class="r1"></td>
+                        <td><input type="button"  onclick="buttonClicked(2)" value="2" class="r1"></td>
+                        <td><input type="button" onclick="buttonClicked(3)" value="3" class="r1"></td>
+                        <td><input type="button" onclick="buttonClicked(4)" value="4" class="r1"></td>
+                        <td><input type="button" onclick="buttonClicked(5)" value="5" class="r1"></td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="5" type="submit" value="submit" onclick="submitClicked()" class="submit">submit</td>
+                    </tr>
+
+                </table>
+            </div>
+        </form>
+    </div>
+
+
+</body>
